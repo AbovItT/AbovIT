@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ /* .scroll_menu{
+
+ }    */
+
+ .header-link{
+    @apply font-bold font-sans border-transparent border-b-4  text-gray-700   h-full hover:text-linkColor transition-all duration-300 hover:border-b-2 hover:border-linkColor  box-border
+} 
+
+.slider__text__content{
+    @apply absolute border p-3 max-w-xl z-50 top-10 left-10
+}
+.slider__text__content__title{
+    @apply xl:text-4xl lg:text-3xl text-linkColor
+}
+.slider__text__content__desc{
+    @apply text-xl text-gray-700 mt-3 
+}
+.link-button{
+    @apply py-2 sm:py-3 px-4 lg:px-12 md:px-8 sm:px-6  border border-black rounded-3xl bg-black text-white transition-all duration-300 ease-linear hover:bg-transparent hover:text-black 
+}
+.tab__button{
+    @apply font-bold  sm:text-xl text-black hover:text-black transition-all duration-300 ease-linear aria-selected:text-linkColor aria-selected:scale-110 
+    aria-selected:border-b-2 border-linkColor 
+}
+.tab__li{
+    @apply w-20  sm:w-28 py-2 font-press-start   transition-all duration-500 
+}
