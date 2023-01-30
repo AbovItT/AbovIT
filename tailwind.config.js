@@ -12,7 +12,7 @@ module.exports = {
         
       },
       boxShadow:{
-        'blogShadow':'0 0px 5px rgb(0 , 0 ,  0 ,  .6)'
+        'blogShadow':'box-shadow: 0 2px 73px 0 rgba(0,0,0, 1)'
       },
       fontFamily: {
         'press-start': ['Playfair Display', 'serif'],
